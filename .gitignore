@@ -1,1 +1,12 @@
-.vscode/
+# Ignore everything
+*
+
+# Allow subdirectories to be scanned
+!*/
+
+# Allow only .c and .cpp files
+!*.c
+!*.cpp
+
+# (Optional) Keep .gitignore itself
+!.gitignore
